@@ -102,7 +102,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,GitHub Pages,Blog" />
+  <meta name="keywords" content="scala,函数" />
 
 
 
@@ -115,20 +115,18 @@
 
 
 
-<meta name="description" content="网上关于GitHub Pages + Hexo搭建博客的教程较多，因此此文旨在查缺补漏，记录整个流程，汇总一些参考的优质blog，以及梳理我在搭建过程中遇到的问题。">
-<meta name="keywords" content="Hexo,GitHub Pages,Blog">
+<meta name="description" content="在各类blog及scala书籍中看到的关于函数最多的一句话是  函数是一等公民  可以看出函数在scala中举足轻重的地位，因此很有必要去全面的掌握它 scala函数基础定义函数 匿名函数12scala&amp;gt; (x: Int) =&amp;gt; x + 1res0: Int =&amp;gt; Int = $$Lambda$1026/1792711692@7412ed6b   固定写法：左边是参数列表，中间符">
+<meta name="keywords" content="scala,函数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GitHub Pages + Hexo搭建博客汇总">
-<meta property="og:url" content="http://gslullaby.github.io/2018/07/13/hexo_github_pages/index.html">
+<meta property="og:title" content="scala中的函数">
+<meta property="og:url" content="http://gslullaby.github.io/2018/07/23/scala中的函数/index.html">
 <meta property="og:site_name" content="Gsl&#39;s blog">
-<meta property="og:description" content="网上关于GitHub Pages + Hexo搭建博客的教程较多，因此此文旨在查缺补漏，记录整个流程，汇总一些参考的优质blog，以及梳理我在搭建过程中遇到的问题。">
+<meta property="og:description" content="在各类blog及scala书籍中看到的关于函数最多的一句话是  函数是一等公民  可以看出函数在scala中举足轻重的地位，因此很有必要去全面的掌握它 scala函数基础定义函数 匿名函数12scala&amp;gt; (x: Int) =&amp;gt; x + 1res0: Int =&amp;gt; Int = $$Lambda$1026/1792711692@7412ed6b   固定写法：左边是参数列表，中间符">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://gslullaby.github.io/2018/07/13/hexo_github_pages/hexo_landscape.jpeg">
-<meta property="og:updated_time" content="2018-07-16T13:07:37.483Z">
+<meta property="og:updated_time" content="2018-07-25T08:06:51.212Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="GitHub Pages + Hexo搭建博客汇总">
-<meta name="twitter:description" content="网上关于GitHub Pages + Hexo搭建博客的教程较多，因此此文旨在查缺补漏，记录整个流程，汇总一些参考的优质blog，以及梳理我在搭建过程中遇到的问题。">
-<meta name="twitter:image" content="http://gslullaby.github.io/2018/07/13/hexo_github_pages/hexo_landscape.jpeg">
+<meta name="twitter:title" content="scala中的函数">
+<meta name="twitter:description" content="在各类blog及scala书籍中看到的关于函数最多的一句话是  函数是一等公民  可以看出函数在scala中举足轻重的地位，因此很有必要去全面的掌握它 scala函数基础定义函数 匿名函数12scala&amp;gt; (x: Int) =&amp;gt; x + 1res0: Int =&amp;gt; Int = $$Lambda$1026/1792711692@7412ed6b   固定写法：左边是参数列表，中间符">
 
 
 
@@ -158,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="http://gslullaby.github.io/2018/07/13/hexo_github_pages/"/>
+  <link rel="canonical" href="http://gslullaby.github.io/2018/07/23/scala中的函数/"/>
 
 
 
 
 
-  <title>GitHub Pages + Hexo搭建博客汇总 | Gsl's blog</title>
+  <title>scala中的函数 | Gsl's blog</title>
   
 
 
@@ -354,7 +352,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://gslullaby.github.io/2018/07/13/hexo_github_pages/">
+    <link itemprop="mainEntityOfPage" href="http://gslullaby.github.io/2018/07/23/scala中的函数/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="何从">
@@ -371,7 +369,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">GitHub Pages + Hexo搭建博客汇总</h2>
+          <h2 class="post-title" itemprop="name headline">scala中的函数</h2>
         
 
         <div class="post-meta">
@@ -383,8 +381,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-13T16:26:45+08:00">
-                2018-07-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-23T14:31:46+08:00">
+                2018-07-23
               </time>
             
 
@@ -394,28 +392,6 @@
           </span>
 
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web前端/" itemprop="url" rel="index">
-                    <span itemprop="name">Web前端</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -424,8 +400,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/07/13/hexo_github_pages/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/07/13/hexo_github_pages/" itemprop="commentsCount"></span>
+                <a href="/2018/07/23/scala中的函数/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/07/23/scala中的函数/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -444,10 +420,6 @@
           
 
           
-              <div class="post-description">
-                  网上关于GitHub Pages + Hexo搭建博客的教程较多，因此此文旨在查缺补漏，记录整个流程，汇总一些参考的优质blog，以及梳理我在搭建过程中遇到的问题。
-              </div>
-          
 
         </div>
       </header>
@@ -462,98 +434,62 @@
       
 
       
-        <p>网上关于GitHub Pages + Hexo搭建博客的教程较多，因此此文旨在查缺补漏，记录整个流程，汇总一些参考的优质blog，以及梳理我在搭建过程中遇到的问题。</p>
-<h2 id="如何搭建个人blog"><a href="#如何搭建个人blog" class="headerlink" title="如何搭建个人blog"></a>如何搭建个人blog</h2><p>在开始之前，我先想了下如何搭建个人blog。既然blog是个网站，那么首先能想到的是，需要自己开发一个网站出来啊，有了网站，还需要服务器来部署我们的网站，然后还需要一个域名，方便访问我们的网站。    </p>
-<h4 id="因此我们要做的工作有"><a href="#因此我们要做的工作有" class="headerlink" title="因此我们要做的工作有"></a>因此我们要做的工作有</h4><ul>
-<li>开发自己的网站（网站设计，UI开发，评论统计系统集成维护等）</li>
-<li>搭建服务器（部署网站，维护等）</li>
-<li>购买域名（绑定域名）</li>
+        <p>在各类blog及scala书籍中看到的关于函数最多的一句话是</p>
+<blockquote>
+<p>函数是一等公民</p>
+</blockquote>
+<p>可以看出函数在scala中举足轻重的地位，因此很有必要去全面的掌握它</p>
+<h2 id="scala函数基础"><a href="#scala函数基础" class="headerlink" title="scala函数基础"></a>scala函数基础</h2><h4 id="定义函数"><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h4><ul>
+<li>匿名函数<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; (x: Int) =&gt; x + 1</span><br><span class="line">res0: Int =&gt; Int = $$Lambda$1026/1792711692@7412ed6b</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<p>首先开发网赚需要耗费巨大精力，其次购买服务器和域名都需要花钱，而我的初衷只是写blog啊，然而却需要做这么多，那岂不是舍本逐末了。好在已经有现成且免费的框架和工具，GitHub Pages<br>和Hexo帮我们做了上面几乎所有的事儿</p>
-<h4 id="GitHub-Pages介绍"><a href="#GitHub-Pages介绍" class="headerlink" title="GitHub Pages介绍"></a>GitHub Pages介绍</h4><p>GitHub Pages是Github提供的一个免费静态网站的托管服务，旨在直接从GitHub仓库托管个人/组织/项目的页面，并且为站点提供了默认域名github.io<br>。也就是说GitHub Pages帮我们解决了 <strong>服务器和域名</strong> 这两大难题</p>
-<p>详细介绍：<a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages官网</a></p>
-<h4 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h4><p>Hexo是一款基于Node.js的静态博客框架。通过Hexo，用户可以定制自己喜欢的网站主题，专注与使用Markdown编写blog，它会帮用户生成静态网站并托管在GitHub，相当的简便。因此Hexo帮我们解决了<strong> 开发网站 </strong> 的难题</p>
-<p>详细介绍：<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo中文文档</a>  </p>
-<h2 id="搭建个人blog的流程"><a href="#搭建个人blog的流程" class="headerlink" title="搭建个人blog的流程"></a>搭建个人blog的流程</h2><p>在使用Hexo极力推荐阅读<strong> <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo中文文档</a> </strong> ,文档里的说明要比许多blog里清晰的多</p>
-<h4 id="搭建前的准备工作"><a href="#搭建前的准备工作" class="headerlink" title="搭建前的准备工作"></a>搭建前的准备工作</h4><p>安装流程在上文中的<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo中文文档</a>里有详细说明</p>
+<p>固定写法：左边是参数列表，中间符号=&gt;，右边是函数体<br>匿名函数无函数名，也无需给出函数的结果类型</p>
 <ul>
-<li>安装Git</li>
-<li>安装Node.js</li>
-<li>安装Hexo  </li>
+<li>函数字面量<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; val f = (x: Int) =&gt; x + 1</span><br><span class="line">scala&gt; f(10)</span><br><span class="line">res0: Int = 11</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<h4 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h4><p>这里只列出简单流程，定制主题，及git分支设置在后面介绍</p>
-<ol>
-<li><p>GitHub上创建新仓库，仓库名为 <strong> GitHub用户名.github.io </strong></p>
-<blockquote>
-<p>这里需要注意，仓库的名字必须为上面的格式，否则部署后将无法访问blog</p>
-</blockquote>
-</li>
-<li><p>GitHub新建分支hexo，并设置为默认分支</p>
-</li>
-<li><p>使用Git克隆新建仓库到本地（此时为hexo分支）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/github_user_name/github_user_name.github.io.git</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在仓库根目录使用hexo init命令初始化（此时为hexo分支）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>上一步完成后依次使用hexo g 与 hexo s（此时为hexo分支），其中g为generator，s为server</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>打开浏览器输入localhost:4000查看本地blog效果，如下图</p>
-<img src="/2018/07/13/hexo_github_pages/hexo_landscape.jpeg" title="Hexo默认主题"></li>
-<li><p>修改仓库根目录下的_config.yml文件，修改deploy中的以下字段并保存，注意branch要设置为master</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span>    </span><br><span class="line"><span class="attr">    type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">    repo:</span> <span class="attr">https://github.com/github_user_name/github_user_name.github.io.git</span></span><br><span class="line"><span class="attr">    branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>提交本地变更至hexo分支</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">'commit msg'</span></span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用hexo d命令完成blog部署</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="blog目录结构"><a href="#blog目录结构" class="headerlink" title="blog目录结构"></a>blog目录结构</h4><p>在上面流程的第4步中，执行完hexo init命令后，会在文件夹下生成hexo工程，以下简要展示生成的目录结构及各个目录的作用，更为详细的解释见<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">Hexo目录结构</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">|-- _config.yml      // 网站全局配置文件，详细说明见</span><br><span class="line">|-- package.json     //</span><br><span class="line">|-- scaffolds        //</span><br><span class="line">|-- source           // 网站资源文件夹，存放网站图片，文章等</span><br><span class="line">   |-- _drafts</span><br><span class="line">   |-- _posts        // 我们的Markdown和HTML文件存放在次文件夹</span><br><span class="line">|-- themes</span><br><span class="line">   |-- landscape     // 官方默认的主题</span><br><span class="line">   |-- next          // next主题</span><br></pre></td></tr></table></figure></p>
-<p>经过第4步之后，通过修改_config.yml文件进行网站的配置,如网站title，author等，详情见<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="noopener">Hexo网站配置</a>。其中最应该注意的是deploy字段，该字段用于配置网站的部署，如网站部署到git的xxx仓库的xxx分支，或是地址为xxx.xxx.xxx.xxx的服务器，详情见<a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="noopener">Hexo deploy</a>    </p>
-<h4 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h4><p>Hexo允许用户自定义主题，下面展示主题的设置方式</p>
-<ol>
-<li>挑选自己喜欢的主题，找到其仓库地址</li>
-<li><p>命令行cd 定位到themes文件夹，将主题clone至该文件夹</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes</span><br><span class="line">$ git <span class="built_in">clone</span> &lt;theme repo&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在clone完成后，新添加的文件夹名称即为主题名称xxx，打开_config.yml将theme字段的landscape修改为xxx</p>
-</li>
-</ol>
-<p>关于主题的挑选，如果没有web前段经验，最好挑选那些star数计较高，社区比较活跃，经常迭代维护的主题，如我自己使用的next主题，下面是我在挑选主题时参考的资料   </p>
-<p><a href="https://www.zhihu.com/question/24422335/answer/46357100" target="_blank" rel="noopener">知乎-有哪些好看的Hexo主题</a></p>
-<blockquote>
-<p>高赞回答用python爬虫爬出来的主题star排行榜 ,推荐参考这个挑选主题     </p>
-</blockquote>
-<p><a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">官方主题列表</a></p>
-<blockquote>
-<p>官方没有对主题进行排名，挑选时稍微麻烦些</p>
-</blockquote>
-<p><a href="https://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">推荐NexT主题</a></p>
-<blockquote>
-<p>NexT主题外观比较简洁利落，并且社区活跃，有详尽的中文文档，主题的外观也可进行各种灵活的配置，是前段盲的必备良药。对于该主题的详细用法，其官方文档中有详细的说明，也就不再赘述了</p>
-</blockquote>
-<h4 id="关于git仓库的说明"><a href="#关于git仓库的说明" class="headerlink" title="关于git仓库的说明"></a>关于git仓库的说明</h4><p>在搭建流程中的前两步，建立完仓库后，又新建了一个hexo分支，并且设置为默认分支。这是因为我们在维护我们的网站时，要维护以下两部分内容</p>
+<p>其中表达式有半部分为一个匿名函数，函数作为一个变量(或不变量)，用变量名+参数表方式调用，与普通方法的调用几乎相同。<br><strong> 需要注意的是函数字面量声明函数时不需要写出函数的返回值类型，函数体的最后一条表达式的结果会作为返回值返回 </strong></p>
+<h4 id="函数的本质"><a href="#函数的本质" class="headerlink" title="函数的本质"></a>函数的本质</h4><p>scala不像java有基本类型与引用类型之分，scala中一切皆对象，包括函数也是对象。scala中定义了一系列trait，Function0 - Function22，表示参数的个数(至于为什么是到22，理论上讲程序中不会出现多于22个参数的函数)。而函数正是Function<em>的实例。如<code>val f = (x: Int) =&gt; x + 1</code>其实就是Function1的实例。下面看下Function</em>的源码，以Function3为例<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/** A function of 3 parameters.</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">trait Function3[-T1, -T2, -T3, +R] extends AnyRef &#123; self =&gt;</span><br><span class="line">  <span class="comment">/** Apply the body of this function to the arguments.</span></span><br><span class="line"><span class="comment">   *  <span class="doctag">@return</span>   the result of function application.</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="function">def <span class="title">apply</span><span class="params">(v1: T1, v2: T2, v3: T3)</span>: R</span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function">  <span class="comment">/** Creates a curried version of this function.</span></span></span><br><span class="line"><span class="function"><span class="comment">   *</span></span></span><br><span class="line"><span class="function"><span class="comment">   *  @return   a function `f` such that `f(x1)(x2)(x3) == apply(x1, x2, x3)`</span></span></span><br><span class="line"><span class="function"><span class="comment">   */</span></span></span><br><span class="line"><span class="function">  @annotation.unspecialized def curried: T1 </span>=&gt; T2 =&gt; T3 =&gt; R = &#123;</span><br><span class="line">    (x1: T1) =&gt; (x2: T2) =&gt; (x3: T3) =&gt; apply(x1, x2, x3)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/** Creates a tupled version of this function: instead of 3 arguments,</span></span><br><span class="line"><span class="comment">   *  it accepts a single [[scala.Tuple3]] argument.</span></span><br><span class="line"><span class="comment">   *</span></span><br><span class="line"><span class="comment">   *  <span class="doctag">@return</span>   a function `f` such that `f((x1, x2, x3)) == f(Tuple3(x1, x2, x3)) == apply(x1, x2, x3)`</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="meta">@annotation</span>.unspecialized def tupled: Tuple3[T1, T2, T3] =&gt; R = &#123;</span><br><span class="line">    <span class="function"><span class="keyword">case</span> <span class="title">Tuple3</span><span class="params">(x1, x2, x3)</span> </span>=&gt; apply(x1, x2, x3)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function">override def <span class="title">toString</span><span class="params">()</span> </span>= <span class="string">"&lt;function3&gt;"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>可以看到其中有一个apply方法(先忽略其他方法)，接受三个泛型参数，所以当我们调用<code>f(1)</code>时，其实是调用了Function1实例的apply方法。</p>
+<h4 id="函数与方法"><a href="#函数与方法" class="headerlink" title="函数与方法"></a>函数与方法</h4><p>在学习过程中，还有一点很困扰，就是我们在类中用def定义的是不是函数，如果不是函数，它又是什么，跟函数又有什么区别呢？<br>首先呢使用def 关键字定义的是方法，不是函数，虽然在实际应用中几乎没有差别，但还是需要了解两者的不同的    </p>
+<p><strong> 方法 </strong><br>定义在类中，作为某个对象的成员方法，使用def关键字定义<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; def a(x: Int):Int = x + 1</span><br><span class="line">a: (x: Int)Int</span><br></pre></td></tr></table></figure></p>
+<p><strong> 两者的区别 </strong></p>
 <ul>
-<li><p>Hexo工程</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init之后生成的部分</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成的静态网站</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">之前在_config.yml中配置了deploy的git仓库及分支，这里我配置的是master分支，在执行了hexo deploy命令之后，Hexo就会生成静态静态网站提交至master分支并自动部署</span><br></pre></td></tr></table></figure>
+<li>方法使用def关键字定义，而函数不用(函数使用val/var或干脆匿名)</li>
+<li>方法是类的一部分，函数是对象可以赋值给一个val/var</li>
+<li>函数作为对象可以像任何其他数据类型一样被传递和操作，而方法不行，如果想要传递方法，则需要把方法转换为函数</li>
+<li>定义方法时，如果没有参数，则参数表可以省略不写(即方法名后不写())，而函数不行</li>
+<li>定义函数时参数列表后不能声明结果类型，如下面的写法会编译错误<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; f(x: Int):Int =&gt; x + 1</span><br><span class="line">&lt;console&gt;:1: error: &apos;;&apos; expected but &apos;=&gt;&apos; found.</span><br><span class="line">       f(x: Int):Int =&gt; x + 1</span><br><span class="line">                     ^</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>这两部分都需要提交至git仓库的，第一部分提交至git，我们就可以随时随地只要有电脑网络就可以clone工程，写blog并更新网站。第二部分是GitHub Pages部署网站必须的部分。这两部分的内容互不相干，因此建议新建hexo分支，用于存储我们的Hexo工程，master分支用于部署网站</p>
-<p>参考的文档：<a href="https://www.zhihu.com/question/21193762" target="_blank" rel="noopener">知乎-使用Hexo，如果换了电脑怎么更新博客</a></p>
-<h4 id="关于NexT主题个人签名不显示的问题"><a href="#关于NexT主题个人签名不显示的问题" class="headerlink" title="关于NexT主题个人签名不显示的问题"></a>关于NexT主题个人签名不显示的问题</h4><p>在NexT主题配置文件_config.yml中，如果设置seo字段为true，则网站配置文件_config.yml中的description字段会被用于seo，而不会显示为签名，这时如果想要显示个人签名，需要额外添加signature字段<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">signature:</span> <span class="string">随行、随记</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="Hexo-SEO优化"><a href="#Hexo-SEO优化" class="headerlink" title="Hexo SEO优化"></a>Hexo SEO优化</h2><p>辛辛苦苦搭好了blog，写了文章，最后发现浏览器里搜不到啊，根本没人看啊，怎么办啊，好没有成就感。这时候就需要SEO出马了，那么什么是SEO呢？</p>
+<p><strong> 两者的转换 </strong></p>
+<ul>
+<li>第一种情况，方法直接转为函数<br>不能将方法直接声明为一个val/var，如下面的写法会编译错误<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; def m(x: Int):Int = x + 1</span><br><span class="line">scala&gt; val f = m</span><br><span class="line">&lt;console&gt;:12: error: missing argument list for method m</span><br><span class="line">Unapplied methods are only converted to functions when a function type is expected.</span><br><span class="line">You can make this conversion explicit by writing `m _` or `m(_)` instead of `m`.</span><br><span class="line">       val f = m</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>正确写法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">scala&gt; def m(x: Int):Int = x + 1</span><br><span class="line">scala&gt; val f = m _</span><br><span class="line">f: Int =&gt; Int = $$Lambda$1069/727861082@4990b335</span><br></pre></td></tr></table></figure></p>
+<p>这个转换的其实是使用了部分应用(Partial Applied Function)，下面将会讲到</p>
+<ul>
+<li>第二种情况，需要函数的地方使用方法<br>这种情况下不需要使用下划线，方法会被自动转换为函数，称之为ETA展开，关于ETA展开，在另一篇里写吧，这里不详述了</li>
+</ul>
+<h2 id="scala函数进阶"><a href="#scala函数进阶" class="headerlink" title="scala函数进阶"></a>scala函数进阶</h2><h4 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h4><p>引用<a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0" target="_blank" rel="noopener">维基百科</a>中高阶函数的定义</p>
 <blockquote>
-<p>SEO 英文全称Search Engine Optimization 即搜索引擎优化。是一种利用搜索引擎规则提高网站在有关引擎内的自然排名</p>
+<p>在数学和计算机科学中，高阶函数是至少满足下列一个条件的函数：    </p>
+<ul>
+<li>接受一个或多个函数作为输入    </li>
+<li>输出一个函数    </li>
+</ul>
 </blockquote>
-<p>既然是针对搜索引擎的优化，那么也就是针对Baidu和Google的优化了。相关blog有很多，并且都是死套路，所以这里就挑选几篇比较新比较好的blog列出来</p>
-<p><a href="https://hoxis.github.io/Hexo+Next%20SEO%E4%BC%98%E5%8C%96.html" target="_blank" rel="noopener">Hexo博客Next主题SEO优化方法</a><br><a href="https://juejin.im/post/5ae7f8a2f265da0ba266c5c6" target="_blank" rel="noopener">Hexo个人博客SEO优化系列</a></p>
-
+<p>定义应该很容易理解，也就是函数可以接受另一个函数作为参数，或者函数的结果类型为函数类型。    </p>
+<ul>
+<li><p>第一种：如数学中的函数<code>f(x) = x + 1</code>， <code>g(x) = x * 2</code>，则<code>f(g(x)) = (x * 2) + 1</code>, 即为高阶函数。用代码实现即为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">def g(x: Int) = x * 2</span><br><span class="line">def f(x: Int, g: Int =&gt; Int) = g(x) + 1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>第二种：结果类型为函数类型</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def g(x: Int):(Int =&gt; Int) = &#123;</span><br><span class="line">  val k = x * 2</span><br><span class="line">  (y: Int) =&gt; y + k + 1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="函数的部分应用"><a href="#函数的部分应用" class="headerlink" title="函数的部分应用"></a>函数的部分应用</h4>
       
     </div>
     
@@ -570,9 +506,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-          
-            <a href="/tags/GitHub-Pages/" rel="tag"># GitHub Pages</a>
+            <a href="/tags/scala/" rel="tag"># scala</a>
           
         </div>
       
@@ -585,8 +519,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/12/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2018/07/21/scala函数式编程/" rel="next" title="scala函数式编程">
+                <i class="fa fa-chevron-left"></i> scala函数式编程
               </a>
             
           </div>
@@ -594,10 +528,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/21/scala学习资料整理/" rel="prev" title="scala学习资料整理">
-                scala学习资料整理 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -763,7 +693,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#如何搭建个人blog"><span class="nav-number">1.</span> <span class="nav-text">如何搭建个人blog</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#因此我们要做的工作有"><span class="nav-number">1.0.1.</span> <span class="nav-text">因此我们要做的工作有</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub-Pages介绍"><span class="nav-number">1.0.2.</span> <span class="nav-text">GitHub Pages介绍</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo介绍"><span class="nav-number">1.0.3.</span> <span class="nav-text">Hexo介绍</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建个人blog的流程"><span class="nav-number">2.</span> <span class="nav-text">搭建个人blog的流程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#搭建前的准备工作"><span class="nav-number">2.0.1.</span> <span class="nav-text">搭建前的准备工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#搭建流程"><span class="nav-number">2.0.2.</span> <span class="nav-text">搭建流程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#blog目录结构"><span class="nav-number">2.0.3.</span> <span class="nav-text">blog目录结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#设置主题"><span class="nav-number">2.0.4.</span> <span class="nav-text">设置主题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于git仓库的说明"><span class="nav-number">2.0.5.</span> <span class="nav-text">关于git仓库的说明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于NexT主题个人签名不显示的问题"><span class="nav-number">2.0.6.</span> <span class="nav-text">关于NexT主题个人签名不显示的问题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-SEO优化"><span class="nav-number">3.</span> <span class="nav-text">Hexo SEO优化</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#scala函数基础"><span class="nav-number">1.</span> <span class="nav-text">scala函数基础</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#定义函数"><span class="nav-number">1.0.1.</span> <span class="nav-text">定义函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#函数的本质"><span class="nav-number">1.0.2.</span> <span class="nav-text">函数的本质</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#函数与方法"><span class="nav-number">1.0.3.</span> <span class="nav-text">函数与方法</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#scala函数进阶"><span class="nav-number">2.</span> <span class="nav-text">scala函数进阶</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#高阶函数"><span class="nav-number">2.0.1.</span> <span class="nav-text">高阶函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#函数的部分应用"><span class="nav-number">2.0.2.</span> <span class="nav-text">函数的部分应用</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
