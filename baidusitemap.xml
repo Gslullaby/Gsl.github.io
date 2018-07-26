@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://gslullaby.github.io/2018/07/23/scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2018-07-25T08:26:19.980Z</lastmod>
+    <lastmod>2018-07-26T10:27:24.413Z</lastmod>
     <data>
         <display>
         <title>scala中的函数</title>
@@ -15,23 +15,9 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://gslullaby.github.io/2018/07/21/scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2018-07-25T08:26:00.716Z</lastmod>
-    <data>
-        <display>
-        <title>scala函数式编程</title>
-        <pubTime>2018-07-21T08:18:04.000Z</pubTime>
-        
-        <tag>scala</tag>
-         
-         
-           
+             
+              <breadCrumb title="scala" url="http://gslullaby.github.io/categories/scala/"/>
+          
         </display>
     </data>
     </url>
@@ -39,7 +25,7 @@
     
   <url>
     <loc>http://gslullaby.github.io/2018/07/21/scala%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</loc>
-    <lastmod>2018-07-21T08:17:27.410Z</lastmod>
+    <lastmod>2018-07-26T07:04:35.324Z</lastmod>
     <data>
         <display>
         <title>scala学习资料整理</title>
@@ -49,6 +35,31 @@
          
          
            
+             
+              <breadCrumb title="scala" url="http://gslullaby.github.io/categories/scala/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://gslullaby.github.io/2018/07/21/scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2018-07-26T06:55:02.113Z</lastmod>
+    <data>
+        <display>
+        <title>scala函数式编程</title>
+        <pubTime>2018-07-21T08:18:04.000Z</pubTime>
+        
+        <tag>scala</tag>
+         
+        <tag>函数式</tag>
+         
+         
+           
+             
+              <breadCrumb title="scala" url="http://gslullaby.github.io/categories/scala/"/>
+          
         </display>
     </data>
     </url>
