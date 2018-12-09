@@ -102,7 +102,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="BIP,区块链" />
 
 
 
@@ -115,13 +115,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Gsl&#39;s blog">
-<meta property="og:url" content="http://lipengw.github.io/tags/GitHub-Pages/index.html">
+<meta name="description" content="此篇为BIP 32的译文，介绍分层确定性钱包原文链接 概述本文介绍分层确定性钱包（HD Wallet）：一种可以在不同系统间部分或全部共享，有或没有花费的能力的钱包 该规范旨在为可在不同客户端之间通信的确定性钱包设定标准。虽然本文描述的钱包有很多特性，但对于钱包客户端来说并不是每个特性都需要实现     本文分为两部分  第一部分主要介绍如何从单一种子派生出一颗秘钥树 第二部分主要介绍如何利用派生">
+<meta name="keywords" content="BIP,区块链">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BIP 32">
+<meta property="og:url" content="http://lipengw.github.io/2018/09/27/bip32/index.html">
 <meta property="og:site_name" content="Gsl&#39;s blog">
+<meta property="og:description" content="此篇为BIP 32的译文，介绍分层确定性钱包原文链接 概述本文介绍分层确定性钱包（HD Wallet）：一种可以在不同系统间部分或全部共享，有或没有花费的能力的钱包 该规范旨在为可在不同客户端之间通信的确定性钱包设定标准。虽然本文描述的钱包有很多特性，但对于钱包客户端来说并不是每个特性都需要实现     本文分为两部分  第一部分主要介绍如何从单一种子派生出一颗秘钥树 第二部分主要介绍如何利用派生">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-10-21T12:47:31.774Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Gsl&#39;s blog">
+<meta name="twitter:title" content="BIP 32">
+<meta name="twitter:description" content="此篇为BIP 32的译文，介绍分层确定性钱包原文链接 概述本文介绍分层确定性钱包（HD Wallet）：一种可以在不同系统间部分或全部共享，有或没有花费的能力的钱包 该规范旨在为可在不同客户端之间通信的确定性钱包设定标准。虽然本文描述的钱包有很多特性，但对于钱包客户端来说并不是每个特性都需要实现     本文分为两部分  第一部分主要介绍如何从单一种子派生出一颗秘钥树 第二部分主要介绍如何利用派生">
 
 
 
@@ -151,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="http://lipengw.github.io/tags/GitHub-Pages/"/>
+  <link rel="canonical" href="http://lipengw.github.io/2018/09/27/bip32/"/>
 
 
 
 
 
-  <title>标签: GitHub Pages | Gsl's blog</title>
+  <title>BIP 32 | Gsl's blog</title>
   
 
 
@@ -195,7 +200,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -333,54 +338,172 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h2>GitHub Pages<small>标签</small>
-        </h2>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lipengw.github.io/2018/09/27/bip32/">
 
-      <h3 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="何从">
+      <meta itemprop="description" content="随行、随记">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Gsl's blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/07/13/hexo_github_pages/" itemprop="url">
-              
-                <span itemprop="name">GitHub Pages + Hexo搭建博客汇总</span>
-              
-            </a>
         
-      </h3>
+          <h2 class="post-title" itemprop="name headline">BIP 32</h2>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-13T16:26:45+08:00"
-              content="2018-07-13" >
-          07-13
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-27T17:29:35+08:00">
+                2018-09-27
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/09/27/bip32/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/09/27/bip32/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i> 阅读次数
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>此篇为BIP 32的译文，介绍分层确定性钱包<br><a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki" target="_blank" rel="noopener">原文链接</a></p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文介绍分层确定性钱包（HD Wallet）：一种可以在不同系统间部分或全部共享，有或没有花费的能力的钱包</p>
+<p>该规范旨在为可在不同客户端之间通信的确定性钱包设定标准。虽然本文描述的钱包有很多特性，但对于钱包客户端来说并不是每个特性都需要实现    </p>
+<p>本文分为两部分</p>
+<ul>
+<li>第一部分主要介绍如何从单一种子派生出一颗秘钥树</li>
+<li>第二部分主要介绍如何利用派生出来的秘钥树构建钱包</li>
+</ul>
+<h2 id="动机"><a href="#动机" class="headerlink" title="动机"></a>动机</h2><h4 id="非确定性钱包的缺点"><a href="#非确定性钱包的缺点" class="headerlink" title="非确定性钱包的缺点"></a>非确定性钱包的缺点</h4><p>现有的一些Bitcoin客户端使用随机生成的秘钥，为了避免为每笔交易后都进行备份，这些客户端会创建一个（默认）包含100个秘钥的秘钥池。并且钱包很难在多个系统间共享或使用</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/区块链/" rel="tag"># 区块链</a>
+          
+            <a href="/tags/BIP/" rel="tag"># BIP</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/09/13/bip39/" rel="next" title="BIP 39">
+                <i class="fa fa-chevron-left"></i> BIP 39
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -388,6 +511,17 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -408,8 +542,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -496,6 +639,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动机"><span class="nav-number">2.</span> <span class="nav-text">动机</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#非确定性钱包的缺点"><span class="nav-number">2.0.1.</span> <span class="nav-text">非确定性钱包的缺点</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -656,6 +815,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -702,6 +865,30 @@
 
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'LiPengW',
+            repo: 'gitment-comments',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '43640ce1f6c7e5f8ecece60d8e377f61f7f5f14f',
+            
+                client_id: 'da79a3bfbb5ce76896e6'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 
