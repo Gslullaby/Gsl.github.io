@@ -1,150 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
   <url>
-    <loc>https://lipengw.github.io/2018/09/27/bip32/</loc>
-    <lastmod>2019-01-06T11:56:30.477Z</lastmod>
-    <data>
-        <display>
-        <title>BIP 32</title>
-        <pubTime>2018-09-27T09:29:35.000Z</pubTime>
-        
-        <tag>区块链</tag>
-         
-        <tag>BIP</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2020/09/03/what-is-dependency-configurations/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/09/13/bip39/</loc>
-    <lastmod>2018-09-13T08:15:41.422Z</lastmod>
-    <data>
-        <display>
-        <title>BIP 39</title>
-        <pubTime>2018-09-13T03:16:33.000Z</pubTime>
-        
-        <tag>区块链</tag>
-         
-        <tag>BIP</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2018/07/21/scala%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/07/21/scala%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</loc>
-    <lastmod>2018-08-02T08:07:54.139Z</lastmod>
-    <data>
-        <display>
-        <title>scala学习资料整理</title>
-        <pubTime>2018-07-21T07:57:35.000Z</pubTime>
-        
-        <tag>scala</tag>
-         
-         
-           
-             
-              <breadCrumb title="scala" url="https://lipengw.github.io/categories/scala/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2018/07/21/scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/07/21/scala%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2018-07-28T07:46:08.223Z</lastmod>
-    <data>
-        <display>
-        <title>scala函数式编程</title>
-        <pubTime>2018-07-21T08:18:04.000Z</pubTime>
-        
-        <tag>scala</tag>
-         
-        <tag>函数式</tag>
-         
-         
-           
-             
-              <breadCrumb title="scala" url="https://lipengw.github.io/categories/scala/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2018/07/23/scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/07/23/scala%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
-    <lastmod>2018-07-28T06:43:40.559Z</lastmod>
-    <data>
-        <display>
-        <title>scala中的函数</title>
-        <pubTime>2018-07-23T06:31:46.000Z</pubTime>
-        
-        <tag>scala</tag>
-         
-         
-           
-             
-              <breadCrumb title="scala" url="https://lipengw.github.io/categories/scala/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2020/09/22/english/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/07/13/hexo_github_pages/</loc>
-    <lastmod>2018-07-16T13:07:37.483Z</lastmod>
-    <data>
-        <display>
-        <title>GitHub Pages + Hexo搭建博客汇总</title>
-        <pubTime>2018-07-13T08:26:45.195Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>GitHub Pages</tag>
-         
-         
-           
-             
-              <breadCrumb title="Web前端" url="https://lipengw.github.io/categories/Web%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
+    <loc>https://hcendless.ink/2020/05/05/history-of-coroutine/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
   <url>
-    <loc>https://lipengw.github.io/2018/07/12/hello-world/</loc>
-    <lastmod>2018-07-12T12:46:07.571Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-07-12T08:30:32.549Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Web前端" url="https://lipengw.github.io/categories/Web%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-</urlset>
+    <loc>https://hcendless.ink/2020/05/05/coroutine/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/09/06/different-kind-of-dependencies/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2018/09/13/bip39/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2018/09/27/bip32/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/07/17/What-is-Gradle/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/08/16/Gradle-task-details/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/07/20/Gradle-build-lifecycle/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/08/22/Gradle-dependency-management/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/08/08/Gradle-Script-Basics/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2020/08/04/Gradle-build-environment/</loc>
+    <lastmod>2021-02-10</lastmod>
+  </url>
+  <url>
+    <loc>https://hcendless.ink/2018/07/13/hexo_github_pages/</loc>
+    <lastmod>2018-07-16</lastmod>
+  </url>
+</urlset> 
